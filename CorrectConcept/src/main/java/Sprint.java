@@ -3,8 +3,6 @@
  */
 public class Sprint {
 
-    int iterationsSize;
-    int startDay;
-    int finishDay;
+    Task someTask;
 
 }

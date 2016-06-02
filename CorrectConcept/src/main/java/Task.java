@@ -8,9 +8,12 @@ public class Task {
     String targetsName;
     String targetsDescription;//Цель для выполнения задачи
     User executor;// Исполнитель
-    Sprint sprintStatus;
     String toDo;
     Stage stageStatus;
+
+    int iterationsSize;
+    int startDay;
+    int finishDay;
 
 
 }
