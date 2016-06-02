@@ -9,4 +9,5 @@ public class User {
 
     Sprint sprintStatus;
     Task taskStatus;
+
 }

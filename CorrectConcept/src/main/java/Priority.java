@@ -1,8 +1,5 @@
 /**
  * Created by artemkopytok on 02.06.16.
  */
-public class Stage {
-
-    String name;
-
+public class Priority {
 }
