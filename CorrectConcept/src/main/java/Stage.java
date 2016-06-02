@@ -3,6 +3,11 @@
  */
 public class Stage {
 
-    String name;
+    String coding;
+    String testing;
+    String planing;
+    String review;
+    Sprint release;
+
 
 }
