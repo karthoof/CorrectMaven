@@ -3,12 +3,8 @@
  */
 public class Stage {
 
-    String backLog;
-    String toDo;
-    String inProgress;
-    String forReview;
-    Sprint forTest;
-    Sprint Done;
+    Integer stageId;
+    enum stages { TODO, INPROGRESS, FORREVIEW, FORTEST, DONE };
 
 
 }

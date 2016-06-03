@@ -3,6 +3,6 @@
  */
 public class Priority {
 
-    int priority;
+    Integer priority;
 
 }

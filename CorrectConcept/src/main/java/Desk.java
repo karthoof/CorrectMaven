@@ -3,6 +3,8 @@
  */
 public class Desk {
 
+    BackLog backLogList;
+    //Не могу понять как расписать, попробую все нарисовать
 
 
 }

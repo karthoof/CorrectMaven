@@ -3,6 +3,7 @@
  */
 public class Project {
 
+    Integer projectId;
     String name;
     BackLog backLog;
     Sprint iterationSize;

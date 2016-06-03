@@ -3,6 +3,7 @@
  */
 public class SprintBackLog {
 
+    Integer sprintBackLogId;
     Task task;
 
 }

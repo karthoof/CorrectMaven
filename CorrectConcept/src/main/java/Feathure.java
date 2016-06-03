@@ -3,6 +3,7 @@
  */
 public class Feathure {
 
+    Integer feathureId;
     String featureName;
     String featureDescription;
 

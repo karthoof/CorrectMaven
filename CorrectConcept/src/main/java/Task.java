@@ -3,6 +3,8 @@
  */
 public class Task {
 
+    Integer taskId;
+
     Feathure feathureFromBL; //Фича с беклога
     Priority taskPriority;
     String targetsName;
@@ -11,9 +13,9 @@ public class Task {
     String toDo;
     Stage stageStatus;
 
-    int iterationsSize;
-    int startDay;
-    int finishDay;
+    Integer iterationsSize;
+    Integer startDay;
+    Integer finishDay;
 
 
 }
