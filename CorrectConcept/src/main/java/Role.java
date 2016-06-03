@@ -3,7 +3,7 @@
  */
 public class Role {
 
-
-    enum roles { PRODUCTOWNER, SCRUMMASTER, DEVELOPER, TESTER };
+    Integer id;
+    enum Roles { PRODUCTOWNER, SCRUMMASTER, DEVELOPER, TESTER }
 
 }

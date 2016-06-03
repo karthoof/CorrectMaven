@@ -1,12 +1,13 @@
-import java.util.ArrayList;
-import java.util.List;
-
 /**
- * Created by artemkopytok on 02.06.16.
+ * Created by artemkopytok on 03.06.16.
  */
 public class Sprint {
 
-    Integer sprintId;
-    List tasks = new ArrayList();
+    Integer id;
+    User users;
+    Integer iterationSize; //day
+    Task tasks;
+    Integer firstDay;
+    Integer lastDay;
 
 }

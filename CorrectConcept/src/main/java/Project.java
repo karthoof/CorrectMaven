@@ -1,11 +1,14 @@
+import java.util.List;
+
 /**
- * Created by artemkopytok on 01.06.16.
+ * Created by artemkopytok on 03.06.16.
  */
 public class Project {
 
-    Integer projectId;
+    Integer id;
+    List users;
     String name;
-    BackLog backLog;
-    Sprint iterationSize;
+    String description;
+    List backLog;
 
 }
