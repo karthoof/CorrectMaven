@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="scrum.n:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="scrum.nnnnnnnn-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="scrum.n:war exploded" />
+    </root>
+  </artifact>
+</component>
