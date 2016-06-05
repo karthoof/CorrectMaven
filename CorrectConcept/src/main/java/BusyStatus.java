@@ -1,8 +1,11 @@
 /**
- * Created by artemkopytok on 03.06.16.
+ * Created by artemkopytok on 05.06.16.
  */
-public class BusyStatus {
+public enum BusyStatus {
 
-    enum status { ACTIVE, NOTACTIVE };
+    ACTIVE, NOTACTIVE;
 
+    BusyStatus() {
+
+    }
 }

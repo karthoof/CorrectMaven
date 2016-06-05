@@ -5,10 +5,13 @@ import java.util.List;
  */
 public class Project {
 
-    Integer id;
-    List<User> users; //GENERIC Содержательно Юзеров, реализация через Arraylist
-    String name;
-    String description;
-    List<Task> tasks;
+    private Long id;
+    private String name;
+    private String description;
+    private List<User> users; //GENERIC Содержательно Юзеров, реализация через Arraylist
+    private List<Task> tasks;
 
+    public Project() {
+
+    }
 }

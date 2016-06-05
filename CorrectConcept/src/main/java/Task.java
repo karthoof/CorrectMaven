@@ -3,11 +3,13 @@
  */
 public class Task {
 
-    Integer id;
-    String name;
-    //Feathure description;
-    TaskStatus status;
-    User executer;
-    Sprint sprint;
+    private Long id;
+    private String name;
+    private TaskStatus status;
+    private User executer;
+    private Sprint sprint;
 
+    public Task() {
+
+    }
 }

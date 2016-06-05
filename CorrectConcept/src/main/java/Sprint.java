@@ -5,10 +5,13 @@ import java.util.Date;
  */
 public class Sprint {
 
-    Integer id;
-    Integer number;
-    String name;
-    Date firstDay;
-    Date lastDay;
+    private Long id;
+    private Long number;
+    private String name;
+    private Date firstDay;
+    private Date lastDay;
 
+    public Sprint() {
+
+    }
 }

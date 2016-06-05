@@ -3,6 +3,9 @@
  */
 public enum Role {
 
-    PRODUCTOWNER, SCRUMMASTER, DEVELOPER, TESTER
+    PRODUCTOWNER, SCRUMMASTER, DEVELOPER, TESTER;
 
+    Role() {
+
+    }
 }
