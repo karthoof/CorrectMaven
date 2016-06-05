@@ -1,3 +1,5 @@
+package com.scrum.project.model;
+
 /**
  * Created by artemkopytok on 05.06.16.
  */

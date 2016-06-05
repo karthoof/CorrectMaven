@@ -1,3 +1,5 @@
+package com.scrum.project.model;
+
 import java.util.Date;
 
 /**
