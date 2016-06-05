@@ -1,9 +1,8 @@
 /**
  * Created by artemkopytok on 03.06.16.
  */
-public class Role {
+public enum Role {
 
-    Integer id;
-    enum Roles { PRODUCTOWNER, SCRUMMASTER, DEVELOPER, TESTER }
+    PRODUCTOWNER, SCRUMMASTER, DEVELOPER, TESTER
 
 }

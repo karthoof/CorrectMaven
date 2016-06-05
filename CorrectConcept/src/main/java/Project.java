@@ -6,9 +6,9 @@ import java.util.List;
 public class Project {
 
     Integer id;
-    List users;
+    List<User> users; //GENERIC Содержательно Юзеров, реализация через Arraylist
     String name;
     String description;
-    List backLog;
+    List<Task> tasks;
 
 }

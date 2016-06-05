@@ -5,8 +5,9 @@ public class Task {
 
     Integer id;
     String name;
-    Feathure description;
+    //Feathure description;
     TaskStatus status;
-    User author;
+    User executer;
+    Sprint sprint;
 
 }

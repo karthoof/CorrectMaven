@@ -1,9 +1,9 @@
 /**
  * Created by artemkopytok on 03.06.16.
  */
-public class BackLog {
+public class BackLog {// delete
 
-    Integer id;
+    Long id;
     Integer countOfTasks;
     Feathure feathure;
 

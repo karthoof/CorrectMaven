@@ -3,7 +3,6 @@
  */
 public class BusyStatus {
 
-    Integer id;
-    enum status { AVAILIBLE, NOTAVAILIBLE };
+    enum status { ACTIVE, NOTACTIVE };
 
 }

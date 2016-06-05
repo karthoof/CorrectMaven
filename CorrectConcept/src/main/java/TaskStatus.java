@@ -3,7 +3,6 @@
  */
 public class TaskStatus {
 
-    Integer id;
     enum status { BACKLOG, TODO, INPROGRESS, CODEREVIEW, TEST, RELEASE };
 
 
