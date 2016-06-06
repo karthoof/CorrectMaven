@@ -1,5 +1,8 @@
 package com.scrum.project.model;
 
+import lombok.Getter;
+import lombok.Setter;
+
 import java.util.List;
 
 /**
@@ -7,7 +10,7 @@ import java.util.List;
  */
 public class Project {
 
-    private Long id;
+    Long id;
     private String name;
     private String description;
     private List<User> users; //GENERIC Содержательно Юзеров, реализация через Arraylist
@@ -17,11 +20,11 @@ public class Project {
 
     }
 
-    public Long getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(int id) {
         this.id = id;
     }
 

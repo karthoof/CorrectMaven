@@ -1,11 +1,18 @@
 package com.scrum.project.model;
 
+import javax.persistence.*;
+
+@Entity
+
 /**
  * Created by artemkopytok on 03.06.16.
  */
 public class User {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    @Column(name = "header", length = 100, nullable = false)
     private String name;
     private String lastName;
     private Role roles;

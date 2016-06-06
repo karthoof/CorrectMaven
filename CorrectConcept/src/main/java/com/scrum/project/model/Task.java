@@ -1,5 +1,8 @@
 package com.scrum.project.model;
 
+import lombok.Getter;
+import lombok.Setter;
+
 /**
  * Created by artemkopytok on 03.06.16.
  */
