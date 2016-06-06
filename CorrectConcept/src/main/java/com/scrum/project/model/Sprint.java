@@ -13,7 +13,7 @@ public class Sprint {
     private Long id;
     @Column(name = "number")
     private Long number;
-    @Column(name = "name")
+    @Column(name = "name", length = 30, nullable = false)
     private String name;
     @Column(name = "firstDay")
     private Date firstDay;

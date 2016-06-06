@@ -9,9 +9,9 @@ public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    @Column(name = "name")
+    @Column(name = "name", length = 30, nullable = false)
     private String name;
-    @Column(name = "lastName")
+    @Column(name = "lastName", length = 40, nullable = false)
     private String lastName;
     @Column(name = "roles")
     private Role roles;
