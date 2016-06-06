@@ -1,17 +1,23 @@
 package com.scrum.project.model;
 
-import lombok.Getter;
-import lombok.Setter;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Table;
 
-/**
- * Created by artemkopytok on 03.06.16.
- */
+@Entity
+@Table(name = "Task")
+
 public class Task {
 
+    @Column(name = "id")
     private Long id;
+    @Column(name = "name")
     private String name;
+    @Column(name = "status")
     private TaskStatus status;
+    @Column(name = "executer")
     private User executer;
+    @Column(name = "sprint")
     private Sprint sprint;
 
     public Task() {

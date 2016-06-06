@@ -1,16 +1,24 @@
 package com.scrum.project.model;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Table;
 import java.util.Date;
 
-/**
- * Created by artemkopytok on 03.06.16.
- */
+@Entity
+@Table(name = "Sprint")
+
 public class Sprint {
 
+    @Column(name = "id")
     private Long id;
+    @Column(name = "number")
     private Long number;
+    @Column(name = "name")
     private String name;
+    @Column(name = "firstDay")
     private Date firstDay;
+    @Column(name = "lastDay")
     private Date lastDay;
 
     public Sprint() {

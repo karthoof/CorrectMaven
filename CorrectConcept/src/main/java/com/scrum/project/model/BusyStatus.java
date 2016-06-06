@@ -1,8 +1,11 @@
 package com.scrum.project.model;
 
-/**
- * Created by artemkopytok on 05.06.16.
- */
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "BusyStatus")
+
 public enum BusyStatus {
 
     ACTIVE, NOTACTIVE;

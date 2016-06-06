@@ -1,30 +1,34 @@
 package com.scrum.project.model;
 
-import lombok.Getter;
-import lombok.Setter;
-
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Table;
 import java.util.List;
 
-/**
- * Created by artemkopytok on 03.06.16.
- */
+@Entity
+@Table(name = "Project")
+
 public class Project {
 
     Long id;
+    @Column(name = "id")
     private String name;
+    @Column(name = "description")
     private String description;
-    private List<User> users; //GENERIC Содержательно Юзеров, реализация через Arraylist
+    @Column(name = "users")
+    private List<User> users;
+    @Column(name = "tasks")
     private List<Task> tasks;
 
     public Project() {
 
     }
 
-    public int getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Long id) {
         this.id = id;
     }
 

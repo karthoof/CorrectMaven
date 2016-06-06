@@ -1,8 +1,11 @@
 package com.scrum.project.model;
 
-/**
- * Created by artemkopytok on 03.06.16.
- */
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "Role")
+
 public enum Role {
 
     PRODUCTOWNER, SCRUMMASTER, DEVELOPER, TESTER;
