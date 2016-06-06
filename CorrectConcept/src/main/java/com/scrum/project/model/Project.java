@@ -1,8 +1,6 @@
 package com.scrum.project.model;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Table;
+import javax.persistence.*;
 import java.util.List;
 
 @Entity
@@ -10,8 +8,10 @@ import java.util.List;
 
 public class Project {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     Long id;
-    @Column(name = "id")
+    @Column(name = "name")
     private String name;
     @Column(name = "description")
     private String description;
